@@ -27,5 +27,14 @@ pip install -r requirements.txt
 3. Run the chatbot script:
 
 ```
-python chatbot.py
+python main.py
 ```
+
+4. Enter your messages when prompted, and the chatbot will generate responses based on the trained model.
+
+# Model Details
+* The model is a neural network loaded from chatbot_model.h5.
+* Tokenization is performed using the tokenizer saved in Tokenizer.p.
+* Intent labels are encoded and decoded using the label encoder saved in LabelEncoder.p.
+* The intents and responses are defined in the intents.json file.
+
